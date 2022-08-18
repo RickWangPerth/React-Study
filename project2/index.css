@@ -1,0 +1,58 @@
+html body{
+    padding: 10px;
+    align-items: center;
+    background-color:antiquewhite;
+}
+
+.Info{
+    text-align: center;
+    background-color: black;
+    color: antiquewhite;
+
+}
+
+.btn{
+    width: 10em;
+}
+
+.photo{
+    width: 300px;
+    height: 300px;
+    padding:30px ;
+    align-items: center;
+}
+
+.btnlink a{
+    padding: 10px;
+    margin: 10px ;
+}
+
+.About{
+    vertical-align: middle;
+    align-items: center;
+    background-color: black;
+    color: antiquewhite;
+}
+
+
+.Interests{
+    vertical-align: middle;
+    align-items: center;
+    text-align:justify;
+    background-color: black;
+    color: antiquewhite;
+}
+
+.Footer{
+    text-align:center;
+    background-color: black;
+    padding-bottom: 10px;
+}
+.footer a{
+    padding: 10px;
+    margin: 10px;
+}
+.footbtn{
+    width: 20px;
+    padding: 10px 10px 10px 10px;
+}
