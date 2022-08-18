@@ -2,7 +2,7 @@ function Header(){
     return(
         <nav className="Header">
             <div className="Icon">
-                <img src="./react-logo.png" alt="react-logo" width= "40px"></img>
+                <img src="./react-logo.png" alt="react-logo"></img>
                 <h3>ReactFacts</h3>
             </div>     
             <h4 className="Project">React course Project 1</h4>
