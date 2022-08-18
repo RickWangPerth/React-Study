@@ -1,9 +1,11 @@
-/*
 import React from "react"
 import ReactDOM from "react-dom"
-*/
-function Header(){
-    return(
+//import Header from "./Header"
+//import Footer from "./Footer"
+//import MainContent from "./MainContent"
+
+function Header() {
+    return (
         <header>
             <nav className="nav">
                 <img src="./react-logo.png" className="nav-logo" />
@@ -17,15 +19,10 @@ function Header(){
     )
 }
 
-function Title(){
-    return(
-        <h1>Reasons I'm excited to learn React</h1>
-    )
-}
-
-function Page() {
+function MainContent() {
     return (
         <div>
+            <h1>Reasons I'm excited to learn React</h1>
             <ol>
                 <li>It's a popular library, so I'll be 
                 able to fit in with the cool kids!</li>
@@ -39,16 +36,21 @@ function Page() {
 function Footer() {
     return (
         <footer>
-            <small>© 2022 rick development. All rights reserved.</small>
+            <small>© 2022 Rick development. All rights reserved.</small>
         </footer>
     )
 }
 
-ReactDOM.render(
-    <div>
-        <Header />
-        <Title />
-        <Page />
-        <Footer />
-    </div>,
-    document.getElementById("root"))
+function Page() {
+    return (
+        <div>
+            <Header />
+            <MainContent />
+            <Footer />
+        </div>
+    )
+}
+
+const root = ReactDOM.createRoot(document.getElementById("root"))
+
+root.render(<Page />)
