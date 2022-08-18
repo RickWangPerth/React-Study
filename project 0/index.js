@@ -1,7 +1,20 @@
+function Header(){
+    return(
+        <nav className="Header">
+            <div className="Icon">
+                <img src="./react-logo.png" alt="react-logo" width= "40px"></img>
+                <h3>ReactFacts</h3>
+            </div>     
+            <h4 className="Project">React course Project 1</h4>
+        </nav>
+    )
+}
+
+
 function MainContent() {
     return (
-        <div>
-            <img src="./react-logo.png" alt="react-logo" width= "40px"></img>
+        <div className="Content">
+            
             <h1><strong>Fun fact about React</strong></h1>
             <ul>
                 <li>Was first released in 2013</li>
@@ -17,6 +30,7 @@ const root = ReactDOM.createRoot(document.getElementById("root"))
 
 root.render(
     <div>
+        <Header />
         <MainContent />
     </div>
 ) 
