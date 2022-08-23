@@ -41,8 +41,23 @@ body{
     font-size: 30px;
 }
 
+.card-body{
+    text-align: start;
+}
 .card-star{
-    display: flex;
+    display:flex;
+    align-items:center;
     padding-top: 10px;
     padding-left: 0;
+
+}.card-img-top{
+    border-radius:15px;
+    width: 80%;
+}
+
+.card1{
+    text-align: start;
+}
+.grey{
+    color:gray;
 }

@@ -23,14 +23,14 @@ function Cards() {
             <div className="container text-center">
                 <div className="row align-items-start">
                     <div className="col-4">
-                        <div className="card">
+                        <div className="card1">
                             <img src="./images/katie-zaferes.png" className="card-img-top" alt="katie" />
                             <div className="card-body">
                                 <div className="card-star">
                                     <img src="./images/star.png" className="star-img" alt="star" />
-                                    <p>(6)</p>
-                                    <p>.</p>
-                                    <p>USA</p>
+                                    <span>5</span>
+                                    <span className="grey">(6).</span>
+                                    <span className="grey">USA</span>
                                 </div>
                                 <p>Life lessons with Katie Zaferes</p>
                                 <p><strong>From $136</strong> / person</p>
